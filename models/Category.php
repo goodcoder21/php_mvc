@@ -6,8 +6,8 @@ class Category {
 		$result = $db->query('SELECT id, name FROM category ORDER BY sort_order ASC');
 		$i=0;
 		while ($row = $result->fetch()) {
-			$categoryList ['id'] = $row['id'];
-			$categoryList ['name'] = $row['name'];
+			$categoryList [$i]['id'] = $row['id'];
+			$categoryList [$i]['name'] = $row['name'];
 			$i++;
 		}
 		return $categoryList;

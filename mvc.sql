@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Сен 22 2019 г., 20:33
+-- Время создания: Сен 24 2019 г., 20:40
 -- Версия сервера: 5.7.20
 -- Версия PHP: 7.2.0
 
@@ -41,10 +41,10 @@ CREATE TABLE `category` (
 
 INSERT INTO `category` (`id`, `name`, `sort_order`, `status`) VALUES
 (1, 'category1', 1, 1),
-(2, 'category2', 1, 1),
-(3, 'category3', 1, 1),
-(4, 'category4', 1, 1),
-(5, 'category5', 1, 1);
+(2, 'category2', 2, 1),
+(3, 'category3', 3, 1),
+(4, 'category4', 4, 1),
+(5, 'category5', 5, 1);
 
 -- --------------------------------------------------------
 
