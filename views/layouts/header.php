@@ -85,16 +85,16 @@
                             </div>
                             <div class="mainmenu pull-left">
                                 <ul class="nav navbar-nav collapse navbar-collapse">
-                                    <li><a href="#">Главная</a></li>
-                                    <li class="dropdown"><a href="#">Магазин<i class="fa fa-angle-down"></i></a>
+                                    <li><a href="/">Home</a></li>
+                                    <li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
                                         <ul role="menu" class="sub-menu">
-                                            <li><a href="#">Каталог товаров</a></li>
-                                            <li><a href="#">Корзина</a></li> 
+                                            <li><a href="/catalog/">Catalog</a></li>
+                                            <li><a href="/cart/">Cart</a></li> 
                                         </ul>
                                     </li> 
-                                    <li><a href="#">Блог</a></li> 
-                                    <li><a href="#">О магазине</a></li>
-                                    <li><a href="#">Контакты</a></li>
+                                    <li><a href="/blog/">Blog</a></li> 
+                                    <li><a href="/about/">About</a></li>
+                                    <li><a href="/contacts/">Contacts</a></li>
                                 </ul>
                             </div>
                         </div>
