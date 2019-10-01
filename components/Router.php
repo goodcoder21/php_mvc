@@ -18,8 +18,8 @@ class Router {
 	
 	//теперь проверяем наличие запроса в роутах
 		foreach ($this->routes as $uriPattern => $path) {
-			if (preg_match("`$uriPattern`", $uri)) {
-				$internalRoute = preg_replace("`$uriPattern`", $path, $uri);
+			if (preg_match("~$uriPattern~", $uri)) {
+				$internalRoute = preg_replace("~$uriPattern~", $path, $uri);
 				$segments = explode('/', $internalRoute);
 				$controllerName = array_shift($segments).'Controller';
 				$controllerName = ucfirst($controllerName);
