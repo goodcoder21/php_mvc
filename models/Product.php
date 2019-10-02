@@ -67,6 +67,6 @@ class Product {
 		$result->setFetchMode(PDO::FETCH_ASSOC);
 		$row = $result->fetch();
 		
-		return $row['name'];
+		return $row['count'];
 	}
 }
